@@ -568,7 +568,7 @@ function showError(error) {
       break;
   }
   M.toast({ html: text, classes: 'red' });
-  weatherByCity('Kolkata');
+  weatherByCity('New Delhi');
 };
 
 // Get Location data from local storage
@@ -603,5 +603,5 @@ if (typeof (Storage) !== "undefined") {
   } else // If the locations key is not there
     getLocation();
 } else {
-  weatherByCity('Kolkata');
+  weatherByCity('New Delhi');
 };
